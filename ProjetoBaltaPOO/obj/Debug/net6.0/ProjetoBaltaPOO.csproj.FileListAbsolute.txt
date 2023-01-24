@@ -1,0 +1,15 @@
+C:\Users\Rafael\Desktop\Project\ProjetoBaltaPOO\ProjetoBaltaPOO\bin\Debug\net6.0\ProjetoBaltaPOO.exe
+C:\Users\Rafael\Desktop\Project\ProjetoBaltaPOO\ProjetoBaltaPOO\bin\Debug\net6.0\ProjetoBaltaPOO.deps.json
+C:\Users\Rafael\Desktop\Project\ProjetoBaltaPOO\ProjetoBaltaPOO\bin\Debug\net6.0\ProjetoBaltaPOO.runtimeconfig.json
+C:\Users\Rafael\Desktop\Project\ProjetoBaltaPOO\ProjetoBaltaPOO\bin\Debug\net6.0\ProjetoBaltaPOO.dll
+C:\Users\Rafael\Desktop\Project\ProjetoBaltaPOO\ProjetoBaltaPOO\bin\Debug\net6.0\ProjetoBaltaPOO.pdb
+C:\Users\Rafael\Desktop\Project\ProjetoBaltaPOO\ProjetoBaltaPOO\obj\Debug\net6.0\ProjetoBaltaPOO.csproj.AssemblyReference.cache
+C:\Users\Rafael\Desktop\Project\ProjetoBaltaPOO\ProjetoBaltaPOO\obj\Debug\net6.0\ProjetoBaltaPOO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rafael\Desktop\Project\ProjetoBaltaPOO\ProjetoBaltaPOO\obj\Debug\net6.0\ProjetoBaltaPOO.AssemblyInfoInputs.cache
+C:\Users\Rafael\Desktop\Project\ProjetoBaltaPOO\ProjetoBaltaPOO\obj\Debug\net6.0\ProjetoBaltaPOO.AssemblyInfo.cs
+C:\Users\Rafael\Desktop\Project\ProjetoBaltaPOO\ProjetoBaltaPOO\obj\Debug\net6.0\ProjetoBaltaPOO.csproj.CoreCompileInputs.cache
+C:\Users\Rafael\Desktop\Project\ProjetoBaltaPOO\ProjetoBaltaPOO\obj\Debug\net6.0\ProjetoBaltaPOO.dll
+C:\Users\Rafael\Desktop\Project\ProjetoBaltaPOO\ProjetoBaltaPOO\obj\Debug\net6.0\refint\ProjetoBaltaPOO.dll
+C:\Users\Rafael\Desktop\Project\ProjetoBaltaPOO\ProjetoBaltaPOO\obj\Debug\net6.0\ProjetoBaltaPOO.pdb
+C:\Users\Rafael\Desktop\Project\ProjetoBaltaPOO\ProjetoBaltaPOO\obj\Debug\net6.0\ProjetoBaltaPOO.genruntimeconfig.cache
+C:\Users\Rafael\Desktop\Project\ProjetoBaltaPOO\ProjetoBaltaPOO\obj\Debug\net6.0\ref\ProjetoBaltaPOO.dll
