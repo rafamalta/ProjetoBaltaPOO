@@ -6,12 +6,12 @@ namespace ProjetoBaltaPOO
     {
         static void Main(string[] args)
         {
-            var curso = new Curso();
+            var carreira = new Carreira();
 
-            foreach (var item in curso.Modulos)
-            {
+            carreira.Itens.Add(new ItemCarreira());
+            Console.WriteLine(carreira.TotalDeCursos);
 
-            }
+            Console.ReadKey();
         }
     }
 }
