@@ -9,7 +9,7 @@ namespace ProjetoBaltaPOO.ConteudoContexto
         public int DuracaoEmMinutos { get; set; }
         public EConteudoNivel Nivel { get; set; }
 
-        public Curso()
+        public Curso(string titulo, string url) : base(titulo, url)
         {
             // inicializa a lista
             Modulos = new List<Modulo>();
