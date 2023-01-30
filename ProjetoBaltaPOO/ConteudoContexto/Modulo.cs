@@ -1,6 +1,6 @@
 ﻿namespace ProjetoBaltaPOO.ConteudoContexto
 {
-    public class Modulo
+    public class Modulo : EntidadeBase
     {
         public Modulo()
         {

@@ -1,4 +1,7 @@
-﻿namespace ProjetoBaltaPOO.ConteudoContexto
+﻿using ProjetoBaltaPOO.NotificacaoContexto;
+using System.Collections;
+
+namespace ProjetoBaltaPOO.ConteudoContexto
 {
     public class Artigo : Conteudo
     {

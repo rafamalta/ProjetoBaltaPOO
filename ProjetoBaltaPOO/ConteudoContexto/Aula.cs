@@ -2,7 +2,7 @@
 
 namespace ProjetoBaltaPOO.ConteudoContexto
 {
-    public class Aula
+    public class Aula : EntidadeBase
     {
         public int OrdemDaAula { get; set; }
         public string Titulo { get; set; }
