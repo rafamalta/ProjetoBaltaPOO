@@ -1,4 +1,5 @@
 ﻿using ProjetoBaltaPOO.ConteudoContexto;
+using ProjetoBaltaPOO.NotificacaoContexto;
 
 namespace ProjetoBaltaPOO
 {
@@ -31,11 +32,16 @@ namespace ProjetoBaltaPOO
             cursos.Add(cursoCsharp);
             cursos.Add(cursoAspNet);
 
+            if (cursoCsharp.Invalido)
+            {
+                // comandos de decisão
+            }
+
             var carreiras = new List<Carreira>();
             var carreiraDotNet = new Carreira("Especialista .NET", "especialista-dotnet");
             var carreiraItem3 = new ItemCarreira(3, "Termine a carreira aqui", "", cursoAspNet);
             var carreiraItem1 = new ItemCarreira(1, "Comece a carreira por aqui", "", cursoCsharp);
-            var carreiraItem2 = new ItemCarreira(2, "Continue a carreira por aqui", "", cursoOOP);
+            var carreiraItem2 = new ItemCarreira(2, "Continue a carreira por aqui", "", null);
             carreiraDotNet.Itens.Add(carreiraItem3);
             carreiraDotNet.Itens.Add(carreiraItem1);
             carreiraDotNet.Itens.Add(carreiraItem2);
@@ -48,9 +54,15 @@ namespace ProjetoBaltaPOO
                 foreach (var item in carreira.Itens.OrderBy(x => x.Pedido))
                 {
                     Console.WriteLine($"{item.Pedido} - {item.Titulo}");
-                    Console.WriteLine(item.Curso.Titulo);
+                    Console.WriteLine(item.Curso?.Titulo);
+                    Console.WriteLine(item.Curso?.Nivel);
+
+                    foreach (var notificacao in item.Notificacoes)
+                    {
+                        Console.WriteLine($"{notificacao.Propriedade} - {notificacao.Mensagem}");
+                    }
                 }
-            }         
+            }
 
             Console.ReadKey();
         }

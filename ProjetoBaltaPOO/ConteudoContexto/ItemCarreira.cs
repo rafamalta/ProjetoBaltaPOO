@@ -1,4 +1,6 @@
-﻿namespace ProjetoBaltaPOO.ConteudoContexto
+﻿using ProjetoBaltaPOO.NotificacaoContexto;
+
+namespace ProjetoBaltaPOO.ConteudoContexto
 {
     public class ItemCarreira : EntidadeBase
     {
@@ -11,7 +13,7 @@
         {
             if (curso == null)
             {
-                throw new Exception("O curso não pode ser nulo!");
+                AdicionarNotificacao(new Notificacao("Curso", "Curso inválido!"));
             }
             Pedido = pedido;
             Titulo = titulo;
