@@ -1,4 +1,6 @@
-﻿namespace ProjetoBaltaPOO.ConteudoContexto
+﻿using ProjetoBaltaPOO.ContextoCompartilhado;
+
+namespace ProjetoBaltaPOO.ConteudoContexto
 {
     public abstract class Conteudo : EntidadeBase
     {

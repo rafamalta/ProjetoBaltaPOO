@@ -1,4 +1,5 @@
-﻿using ProjetoBaltaPOO.NotificacaoContexto;
+﻿using ProjetoBaltaPOO.ContextoCompartilhado;
+using ProjetoBaltaPOO.NotificacaoContexto;
 
 namespace ProjetoBaltaPOO.ConteudoContexto
 {

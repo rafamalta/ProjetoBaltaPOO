@@ -1,4 +1,5 @@
 ﻿using ProjetoBaltaPOO.ConteudoContexto.Enums;
+using ProjetoBaltaPOO.ContextoCompartilhado;
 
 namespace ProjetoBaltaPOO.ConteudoContexto
 {

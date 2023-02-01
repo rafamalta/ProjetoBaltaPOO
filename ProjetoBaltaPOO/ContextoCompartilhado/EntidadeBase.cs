@@ -1,6 +1,6 @@
 ﻿using ProjetoBaltaPOO.NotificacaoContexto;
 
-namespace ProjetoBaltaPOO.ConteudoContexto
+namespace ProjetoBaltaPOO.ContextoCompartilhado
 {
     public abstract class EntidadeBase : Notificador
     {
