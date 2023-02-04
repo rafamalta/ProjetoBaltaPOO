@@ -7,5 +7,7 @@ namespace ProjetoBaltaPOO.ContextoAssinatura
         public string NomeDoAluno { get; set; }
         public string Email { get; set; }
         public Usuario Usuario { get; set; }
+        public IList<Assinatura> Assinatura { get; set; }
+        public bool AlunoPremium => Assinatura.Any(x => !x.Inativo);
     }
 }
